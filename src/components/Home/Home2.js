@@ -5,9 +5,8 @@ import Tilt from "react-parallax-tilt";
 import Techstack from "./Techstack";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
-  AiFillLinkedin,
+  AiOutlineDollarCircle,
 } from "react-icons/ai";
 
 
@@ -15,6 +14,14 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+    <a
+          href="https://bugdetayu.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-colour  home-social-icons"
+        >
+         <AiOutlineDollarCircle />
+        </a>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
